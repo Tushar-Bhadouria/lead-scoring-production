@@ -7,3 +7,16 @@ __pycache__/
 *.log
 # Local development
 *.tmp
+# Data
+data/*.csv
+
+# ML artifacts
+artifacts/*.pkl
+
+# Temporary notebook inspection files
+inspect_notebook.py
+notebook_cells.txt
+notebook_full_output.txt
+
+# Pytest
+.pytest_cache/
